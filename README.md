@@ -103,25 +103,22 @@ Tonton demo penggunaan EduBot di [YouTube](#) atau coba langsung di [edubot.exam
   ├── README.md              # Dokumentasi
   └── utils.py               # Utilitas tambahan untuk pemrosesan data
   ```
+---
 
-- **Pustaka Utama yang Digunakan:**
-  ```python
-  import json
-  import re
-  import random
-  import numpy as np
-  import tensorflow as tf
-  from tensorflow.keras.models import Sequential
-  from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, Bidirectional, BatchNormalization
-  from tensorflow.keras.callbacks import EarlyStopping
-  from sklearn.preprocessing import LabelEncoder
-  from tensorflow.keras.preprocessing.text import Tokenizer
-  from tensorflow.keras.preprocessing.sequence import pad_sequences
-  from sklearn.model_selection import train_test_split
-  from sklearn.metrics import classification_report
-  from nltk.corpus import wordnet, stopwords
-  import nltk
-  ```
+### **Pustaka Utama yang Digunakan** 🛠️
+
+EduBot dibangun dengan berbagai pustaka Python canggih untuk mendukung pembelajaran mesin dan pemrosesan bahasa alami:
+
+| **Kategori**          | **Pustaka Utama**                                                                                      |
+|-----------------------|-------------------------------------------------------------------------------------------------------|
+| **Data & Pemrosesan** | `numpy`, `json`, `re`, `random`                                                                       |
+| **Deep Learning**     | `tensorflow`, `keras`                                                                                |
+| **NLP**               | `nltk`, `wordnet`, `stopwords`, `Tokenizer`, `pad_sequences`                                         |
+| **Pemrosesan Model**  | `LabelEncoder`, `train_test_split`, `classification_report`                                          |
+| **Arsitektur Model**  | `Sequential`, `Embedding`, `LSTM`, `Dense`, `Dropout`, `Bidirectional`, `BatchNormalization`         |
+| **Optimisasi**        | `EarlyStopping`                                                                                      |
+
+---
 
 ---
 

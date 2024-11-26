@@ -38,7 +38,7 @@
 ### Langkah-langkah
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/edubot.git
+   git clone https://github.com/ibrahimhaykal/chatbot-edu-bot.git
    cd edubot
    ```
 
@@ -85,10 +85,6 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 3. **Melihat Hasil Evaluasi**: *Dashboard* menampilkan metrik evaluasi, termasuk akurasi dan *loss*.
 
 ---
-
-## 🌐 Demo
-
-Tonton demo penggunaan EduBot di [YouTube](#) atau coba langsung di [edubot.example.com](#).
 
 ---
 

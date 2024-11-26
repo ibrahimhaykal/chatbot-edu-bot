@@ -1,0 +1,434 @@
+{
+    "intents": [
+        { 
+                "tag": "salam_pertama",
+                "patterns": [
+                    "Hai",
+                    "Halo",
+                    "Hey",
+                    "Selamat pagi",
+                    "Selamat siang", 
+                    "Selamat malam",
+                    "Permisi",
+                    "Ada yang bisa dibantu?",
+                    "Mulai",
+                    "Aku mau belajar"
+                ],
+                "responses": [
+                    {
+                        "bot": "🌟 Hai petualang ilmu! Siap menjelajahi samudra pengetahuan hari ini? 🚀",
+                        "user_follow_up": "Iya, aku mau belajar",
+                        "bot_follow_up": "Keren! Mari kita mulai petualangan intelektual kita! Mau fokus di bidang apa hari ini? 🤓"
+                    },
+                    {
+                        "bot": "👋 Selamat datang di laboratorium pengetahuan! Aku siap jadi mitra belajarmu. 📚",
+                        "user_follow_up": "Aku bingung mau belajar apa",
+                        "bot_follow_up": "Tenang! Kita punya banyak pilihan seru. Mari kita temukan topik yang membuatmu penasaran! 🌈"
+                    },
+                    {
+                        "bot": "🌈 Halo, calon ilmuwan! Siap membuka pintu rahasia pengetahuan? 💡",
+                        "user_follow_up": "Aku ingin belajar",
+                        "bot_follow_up": "Semangat! Kita akan jelajahi dunia pengetahuan bersama-sama. Pilih bidang apa yang membuatmu tertarik? 🚀"
+                    },
+                    {
+                        "bot": "🤖 Robot pengetahuan siap beroperasi! Apa misi belajarmu hari ini? 📖",
+                        "user_follow_up": "Aku ingin berkembang",
+                        "bot_follow_up": "Keren! Setiap langkah belajar adalah langkah menuju versi terbaik dirimu. Mari kita mulai! 💪"
+                    },
+                    {
+                        "bot": "🌍 Selamat datang di portal pengetahuan! Siap untuk penjelajahan intelektual? 🔍",
+                        "user_follow_up": "Aku penasaran",
+                        "bot_follow_up": "Rasa penasaran adalah kunci utama belajar! Mari kita quencher rasa ingin tahumu hari ini. 🌟"
+                    },
+                    {
+                        "bot": "✨ Halo! Aku di sini untuk membantumu menemukan hal baru yang seru dan menarik! Yuk mulai! 🎯",
+                        "user_follow_up": "Mulai dari mana ya?",
+                        "bot_follow_up": "Coba pikirkan topik yang selalu membuatmu penasaran, kita bisa mulai dari sana! 😊"
+                    }
+                ]
+            },
+            {
+                "tag": "perpisahan",
+                "patterns": [
+                    "Bye",
+                    "Dadah",
+                    "Terima kasih",
+                    "Sudah ya",
+                    "Keluar",
+                    "Selesai",
+                    "Sampai jumpa",
+                    "Pulang dulu",
+                    "Makasih bantuannya",
+                    "Cukup sekian"
+                ],
+                "responses": [
+                    {
+                        "bot": "🌈 Petualangan keilmuan kita hari ini berakhir. Sampai jumpa, peneliti masa depan! 🚀",
+                        "user_follow_up": "Makasih ya",
+                        "bot_follow_up": "Selalu ada ilmu baru menunggu. Tetap semangat dan terus belajar! 💪"
+                    },
+                    {
+                        "bot": "👋 Sampai jumpa, jagoan pengetahuan! Ingat, setiap detik adalah kesempatan untuk belajar. 📖",
+                        "user_follow_up": "Oke, babay",
+                        "bot_follow_up": "Jaga kesehatan dan teruslah bermimpi besar! Sampai kita bertemu lagi. 🌟"
+                    },
+                    {
+                        "bot": "🌟 Terima kasih telah berbagi waktu untuk belajar hari ini. Kamu luar biasa! 💖",
+                        "user_follow_up": "Sampai jumpa",
+                        "bot_follow_up": "Setiap hari adalah kesempatan untuk tumbuh. Terus jelajahi ilmu pengetahuan! 🚀"
+                    },
+                    {
+                        "bot": "🤝 Perjalanan belajar kita hari ini usai. Tetap semangat dan pantang menyerah! 💡",
+                        "user_follow_up": "Makasih banyak",
+                        "bot_follow_up": "Sama-sama! Ingat, kamu memiliki potensi luar biasa. Terus kembangkan dirimu! 🌈"
+                    },
+                    {
+                        "bot": "📚 Penutup belajar hari ini. Selalu ada cerita baru menunggu di depan! 🌍",
+                        "user_follow_up": "Dadah",
+                        "bot_follow_up": "Dadah, pejuang ilmu! Sampai jumpa di petualangan pengetahuan berikutnya. 🚀"
+                    },
+                    {
+                        "bot": "💡 Sampai jumpa lagi! Tetap semangat belajar dan terus eksplorasi dunia ini! 🌟",
+                        "user_follow_up": "Oke, terima kasih ya",
+                        "bot_follow_up": "Sama-sama! Aku akan selalu ada untuk membantu. Sampai jumpa! 🙌"
+                    }
+                ]
+            },
+        {
+             
+                "tag": "tentang_pembuat",
+                "patterns": [
+                    "Siapa yang buat bot ini?",
+                    "Bot ini dibuat oleh siapa?",
+                    "Pembuat edubot ini siapa ya?",
+                    "Siapa pembuatmu?",
+                    "Kamu diciptakan oleh siapa?"
+                ],
+                "responses": [
+                    "Edubot ini dikembangkan dengan penuh semangat oleh Ibrahim Haykal. 🎓",
+                    "Hai, aku adalah hasil kerja keras Ibrahim Haykal untuk membantu belajar. 😊",
+                    "Bot ini dibuat oleh Ibrahim Haykal, seorang penggemar ilmu dan teknologi! 🚀",
+                    "Aku diciptakan oleh Ibrahim Haykal, untuk jadi teman belajarmu yang asyik! 📚"
+                ]
+            },
+        {
+                "tag": "kesulitan_matematika",
+                "patterns": [
+                    "Matematika sulit",
+                    "Gak ngerti rumus",
+                    "Algebra membingungkan",
+                    "Soal matematika kompleks",
+                    "Kesulitan hitung-menghitung",
+                    "Gak suka matematika",
+                    "Rumus-rumus membuat pusing",
+                    "Matematika abstrak",
+                    "Takut sama angka",
+                    "Matematika menakutkan",
+                    "Kok matematika rumit banget ya?",
+                    "Hitung-hitungan bikin pusing",
+                    "Ada cara mudah belajar matematika?",
+                    "Algebra itu apa sih?",
+                    "Kenapa banyak yang benci matematika?"
+                ],
+                "responses": [
+                    {
+                        "bot": "🧮 Matematika itu bahasa universal! Mari kita ubah persepsimu dari yang menakutkan jadi menarik! 🌟",
+                        "user_follow_up": "Aku benar-benar tidak bisa",
+                        "bot_follow_up": "Setiap orang punya potensi! Kita akan mulai dari konsep dasar dan membangun kepercayaan dirimu perlahan. 💪"
+                    },
+                    {
+                        "bot": "🔢 Matematika seperti puzzle raksasa yang seru untuk dipecahkan! Mau jadi detektif angka bareng aku? 🕵️‍♀️",
+                        "user_follow_up": "Algebra terlihat rumit",
+                        "bot_follow_up": "Algebra itu seperti misteri yang ingin kita pecahkan bersama. Kita akan memecahkannya langkah demi langkah! 🧩"
+                    },
+                    {
+                        "bot": "🧠 Angka-angka itu nggak menakutkan kok, mereka hanya perlu dikenali lebih dekat. Yuk, pelan-pelan kita coba! 😉",
+                        "user_follow_up": "Aku nggak suka matematika",
+                        "bot_follow_up": "Kadang kita nggak suka karena nggak paham. Mulai dari yang kecil dulu yuk, biar makin mudah! ✨"
+                    },
+                    {
+                        "bot": "✨ Matematika itu tentang logika dan pola! Yuk coba lihat angka-angka dari sisi yang lebih seru! 😄",
+                        "user_follow_up": "Tapi kayaknya rumit deh",
+                        "bot_follow_up": "Nggak usah khawatir! Kita bisa mulai dari hal-hal simpel, seperti operasi dasar. Semuanya akan jadi masuk akal nanti! 🧮"
+                    }
+                ]
+            },
+            {
+                "tag": "tertarik_sains",
+                "patterns": [
+                    "Sains itu sulit",
+                    "Kimia membingungkan",
+                    "Fisika kompleks",
+                    "Ingin tahu lebih dalam tentang sains",
+                    "Eksperimen sains",
+                    "Teknologi canggih",
+                    "Masa depan sains",
+                    "Ingin jadi ilmuwan",
+                    "Sains itu membosankan",
+                    "Penasaran sama fenomena alam",
+                    "Kenapa sains penting?",
+                    "Apa sih menariknya sains?",
+                    "Eksperimen yang seru apa ya?",
+                    "Aku pengen tahu tentang alam semesta",
+                    "Sains itu rumit nggak sih?"
+                ],
+                "responses": [
+                    {
+                        "bot": "🔬 Sains adalah kunci membuka rahasia semesta! Siap menjelajahi dunia pengetahuan? 🚀",
+                        "user_follow_up": "Aku bingung mulai dari mana",
+                        "bot_follow_up": "Kita bisa mulai dari hal-hal sederhana di sekitar kita. Sains ada di mana-mana, tinggal kita yang perlu membukanya! 🌍"
+                    },
+                    {
+                        "bot": "🧪 Ilmu sains itu seperti sihir nyata! Setiap percobaan adalah petualangan penemuan! 💡",
+                        "user_follow_up": "Aku takut eksperimen",
+                        "bot_follow_up": "Tenang! Kita akan mulai dari eksperimen sederhana dan aman. Sains itu menyenangkan, bukan menakutkan! 🌈"
+                    },
+                    {
+                        "bot": "🌌 Sains itu penuh misteri, dari atom hingga galaksi. Yuk, kita eksplorasi rahasianya bersama! 💫",
+                        "user_follow_up": "Aku nggak ngerti tentang galaksi",
+                        "bot_follow_up": "Nggak masalah! Kita mulai dari dasar dulu, seperti memahami planet dan tata surya. Perlahan akan lebih menarik! 🪐"
+                    },
+                    {
+                        "bot": "🌍 Sains bukan hanya teori, tapi juga cara melihat dunia dengan mata baru. Siap mencoba? 🔍",
+                        "user_follow_up": "Aku nggak tahu banyak soal sains",
+                        "bot_follow_up": "Kita semua belajar kok! Mari mulai dengan topik sederhana seperti air, cahaya, atau energi. Semua ada awalnya! 🌈"
+                    }
+                ]
+            },
+            {
+                "tag": "belajar_bahasa",
+                "patterns": [
+                    "Sulit berbicara",
+                    "Ingin mahir bahasa",
+                    "Tata bahasa rumit",
+                    "Mau belajar menulis",
+                    "Kesulitan komunikasi",
+                    "Ingin punya kosa kata",
+                    "Bahasa asing",
+                    "Cara cepat belajar bahasa",
+                    "Membaca sulit",
+                    "Ingin lancar berbicara",
+                    "Kenapa belajar bahasa penting?",
+                    "Bahasa Inggris susah dipahami",
+                    "Gimana cara lancar ngomong?",
+                    "Aku mau bisa baca lebih cepat",
+                    "Belajar grammar itu sulit"
+                ],
+                "responses": [
+                    {
+                        "bot": "🌐 Bahasa adalah jembatan komunikasi! Setiap kata adalah kunci membuka dunia baru! 🗣️",
+                        "user_follow_up": "Aku gugup bicara",
+                        "bot_follow_up": "Gugup itu normal! Kita akan mulai dari percakapan sederhana dan membangun kepercayaan dirimu perlahan. 💖"
+                    },
+                    {
+                        "bot": "📖 Setiap bahasa punya ceritanya sendiri. Mau menjelajahi dunia melalui bahasa? 🌍",
+                        "user_follow_up": "Cara belajar yang efektif",
+                        "bot_follow_up": "Dengarkan, praktikkan, dan jangan takut salah! Belajar bahasa itu seperti bermain peran dalam petualangan baru! 🚀"
+                    },
+                    {
+                        "bot": "✍️ Belajar bahasa itu seperti membuka pintu ke dunia baru! Yuk mulai dari kosa kata sederhana. 😊",
+                        "user_follow_up": "Tata bahasa itu sulit",
+                        "bot_follow_up": "Pahami dulu struktur dasarnya, seperti subjek, kata kerja, dan objek. Kita bisa pelajari pelan-pelan! ✨"
+                    },
+                    {
+                        "bot": "🗣️ Lancar bicara datang dari latihan! Mulai ngobrol sendiri atau dengan teman. Mau coba sekarang? 😄",
+                        "user_follow_up": "Aku takut salah ngomong",
+                        "bot_follow_up": "Salah itu bagian dari belajar! Orang pasti paham kok kalau kita masih belajar. Yang penting coba dulu! 💪"
+                    }
+                ]
+            },
+            {
+                "tag": "minat_teknologi",
+                "patterns": [
+                    "Ingin belajar coding",
+                    "Teknologi membingungkan",
+                    "Mau jadi programmer",
+                    "Artificial Intelligence",
+                    "Robotika",
+                    "Masa depan teknologi",
+                    "Komputer",
+                    "Aplikasi mobile",
+                    "Web development",
+                    "Tertarik teknologi canggih",
+                    "Coding itu apa sih?",
+                    "Aku mau belajar membuat aplikasi",
+                    "Gimana caranya bikin website?",
+                    "Teknologi apa yang paling keren?",
+                    "Aku nggak ngerti soal komputer"
+                ],
+                "responses": [
+                    {
+                        "bot": "💻 Teknologi adalah kunci masa depan! Siap menjadi kreator digital? 🤖",
+                        "user_follow_up": "Coding terlihat sulit",
+                        "bot_follow_up": "Coding itu seperti menulis cerita dengan bahasa komputer. Kita akan mulai dari dasar yang menyenangkan! 🌟"
+                    },
+                    {
+                        "bot": "🚀 Setiap inovasi teknologi bermula dari rasa ingin tahu! Mau jelajahi dunia digital? 💡",
+                        "user_follow_up": "Dari mana mulainya",
+                        "bot_follow_up": "Kita bisa mulai dari bahasa pemrograman sederhana. Python cocok untuk pemula yang ingin belajar! 🖥️"
+                    },
+                    {
+                        "bot": "🌟 Teknologi membuka peluang tanpa batas! Yuk pelajari dasar-dasar seperti coding atau desain! 😊",
+                        "user_follow_up": "Aku nggak tahu harus mulai dari mana",
+                        "bot_follow_up": "Mulai dari teknologi yang kamu sering pakai, seperti aplikasi atau website. Belajar cara kerjanya itu seru! 🔍"
+                    },
+                    {
+                        "bot": "🤖 Teknologi seperti permainan puzzle, semakin banyak belajar, semakin asik! Mau coba? ✨",
+                        "user_follow_up": "Tapi kelihatannya ribet",
+                        "bot_follow_up": "Tenang, semua orang mulai dari dasar. Kita coba langkah kecil dulu ya, seperti membuat program sederhana! 💪"
+                    }
+                ]
+            },
+        {
+                "tag": "study_tips",
+                "patterns": [
+                    "Gimana cara belajar efektif?",
+                    "Tips supaya fokus belajar",
+                    "Cara biar nggak bosan belajar",
+                    "Belajar cepat gimana ya?",
+                    "Kesulitan memahami materi",
+                    "Bagaimana mengatur waktu belajar?",
+                    "Teknik belajar yang baik",
+                    "Motivasi belajar",
+                    "Gimana cara belajar yang santai tapi efektif?",
+                    "Apa rahasia biar paham materi dengan cepat?",
+                    "Gimana cara bikin jadwal belajar?",
+                    "Aku susah mengingat pelajaran"
+                ],
+                "responses": [
+                    {
+                        "bot": "📚 Belajar efektif itu soal strategi. Fokus ke konsep utama dulu, baru perincian. Yuk, kita bahas teknik yang cocok buat kamu! ✨",
+                        "user_follow_up": "Aku nggak tahu cara memulai",
+                        "bot_follow_up": "Mulai dari yang paling kamu suka dulu. Jadikan belajar menyenangkan, seperti bermain puzzle! 🧩"
+                    },
+                    {
+                        "bot": "🕒 Atur jadwal belajar kecil-kecil. 25 menit belajar, 5 menit istirahat (metode Pomodoro). Yuk, coba! 🕑",
+                        "user_follow_up": "Tapi aku sering malas",
+                        "bot_follow_up": "Malas itu wajar! Buat target kecil, seperti 'belajar 10 menit saja'. Lama-lama, kamu akan terbiasa. 💪"
+                    },
+                    {
+                        "bot": "🎯 Gunakan teknik visual seperti mind map atau diagram. Lebih mudah untuk memahami ide besar! 🌳",
+                        "user_follow_up": "Aku nggak suka gambar",
+                        "bot_follow_up": "Tidak apa-apa! Bisa pakai catatan warna-warni atau flashcard digital untuk belajar lebih seru. 😊"
+                    },
+                    {
+                        "bot": "💡 Belajar di pagi hari atau waktu otakmu segar biasanya lebih efektif. Sudah coba? 🌞",
+                        "user_follow_up": "Aku malah sering belajar malam",
+                        "bot_follow_up": "Malam pun bisa, asal kamu cukup tidur. Jaga pola tidur agar otakmu tetap tajam! 🛌"
+                    },
+                    {
+                        "bot": " *Untuk memahami materi lebih cepat, coba ajarkan ke orang lain. Teknik Feynman bisa bantu kamu memahami konsep lebih mendalam.* Sudah pernah coba cara ini?",
+                        "user_follow_up": "Belum, aku nggak yakin bisa",
+                        "bot_follow_up": "Nggak apa-apa, mulai dari hal kecil! Misalnya, jelaskan satu rumus atau konsep ke temanmu. Kalau nggak ada teman, pura-pura aja kamu ngajarin boneka. Serius, itu efektif banget! 😊"
+                    }
+                ]
+            },
+        {
+                "tag": "minat_aljabar",
+                "patterns": [
+                    "Apa itu aljabar?",
+                    "Aku kesulitan aljabar",
+                    "Kenapa aljabar penting?",
+                    "Bagaimana cara belajar aljabar?",
+                    "Rumus-rumus aljabar",
+                    "Kenapa aljabar itu susah?",
+                    "Aplikasi aljabar dalam kehidupan",
+                    "Soal aljabar bikin bingung"
+                ],
+                "responses": [
+                    {
+                        "bot": "🧮 Aljabar itu seperti teka-teki, di mana variabel adalah bagian yang hilang. Kita cari jawabannya bersama yuk! 😊",
+                        "user_follow_up": "Aku nggak ngerti variabel",
+                        "bot_follow_up": "Variabel itu seperti pengganti angka. Contohnya: x bisa bernilai apa saja. Kita akan pahami perlahan! ✨"
+                    },
+                    {
+                        "bot": "📖 Belajar aljabar dimulai dari persamaan sederhana. Sudah coba latihan soal dasar? Saya bisa bantu! 🤓",
+                        "user_follow_up": "Contoh soal sederhana gimana?",
+                        "bot_follow_up": "Misalnya: x + 2 = 5. Kalau x apa nilainya? Kita kurangi 5 - 2, jadi x = 3. Mudah kan? 😉"
+                    }
+                ]
+            },
+            {
+                "tag": "minat_geometri",
+                "patterns": [
+                    "Aku suka geometri",
+                    "Kenapa geometri penting?",
+                    "Belajar bentuk-bentuk",
+                    "Kesulitan soal bangun datar",
+                    "Apa itu teorema Pythagoras?",
+                    "Soal geometri membingungkan",
+                    "Cara mudah belajar geometri",
+                    "Aplikasi geometri dalam kehidupan"
+                ],
+                "responses": [
+                    {
+                        "bot": "🔺 Geometri adalah seni dan matematika bersatu! Yuk, kita pahami bentuk dan ruang bersama! 🎨",
+                        "user_follow_up": "Teorema Pythagoras itu apa sih?",
+                        "bot_follow_up": "Itu aturan untuk segitiga siku-siku: a² + b² = c². Cocok untuk menghitung panjang sisi! Mau contoh? 🧮"
+                    },
+                    {
+                        "bot": "📏 Belajar geometri seperti bermain dengan puzzle! Sudah coba menggambar bangun datar? 😊",
+                        "user_follow_up": "Aku nggak bisa menggambar",
+                        "bot_follow_up": "Tenang! Cukup gunakan garis lurus dulu, seperti segitiga atau persegi. Geometri lebih ke logika, bukan seni. 😉"
+                    }
+                ]
+            },
+        {
+                "tag": "minat_astronomi",
+                "patterns": [
+                    "Aku penasaran dengan alam semesta",
+                    "Apa itu astronomi?",
+                    "Penasaran tentang planet",
+                    "Kenapa astronomi menarik?",
+                    "Apa itu black hole?",
+                    "Eksplorasi tata surya"
+                ],
+                "responses": [
+                    {
+                        "bot": "🌌 *Astronomi adalah ilmu tentang alam semesta: bintang, planet, galaksi, dan segala yang ada di luar angkasa.* Misalnya, tahukah kamu kalau cahaya bintang yang kita lihat sebenarnya sudah berusia ribuan tahun? 🔭",
+                        "user_follow_up": "Wah, kok bisa begitu?",
+                        "bot_follow_up": "Itu karena cahaya membutuhkan waktu untuk sampai ke Bumi. Contohnya, cahaya dari Matahari saja butuh 8 menit untuk sampai ke kita. Jadi, kita seperti melihat 'masa lalu' alam semesta! ✨"
+                    },
+                    {
+                        "bot": "🪐 *Tata surya kita terdiri dari 8 planet, ratusan bulan, dan jutaan asteroid. Setiap planet punya cerita unik.* Misalnya, Venus disebut 'planet neraka' karena suhunya yang ekstrem. Penasaran tentang planet lain? 😊",
+                        "user_follow_up": "Aku penasaran tentang Saturnus",
+                        "bot_follow_up": "Saturnus punya cincin spektakuler yang terbuat dari es dan debu! Cincinnya sangat besar, tapi tipis. Sebenarnya, planet gas seperti Saturnus tidak punya permukaan keras, lho. Menarik kan? 🌟"
+                    },
+                    {
+                        "bot": "🛸 *Black hole adalah objek yang memiliki gravitasi sangat kuat, bahkan cahaya tidak bisa lolos darinya.* Mereka terbentuk dari bintang yang sangat besar setelah meledak. Menakutkan sekaligus misterius! 🚀",
+                        "user_follow_up": "Apa yang terjadi kalau masuk ke black hole?",
+                        "bot_follow_up": "Kita tidak tahu pasti, tapi teori relativitas Einstein mengatakan waktu bisa melambat dan benda akan 'terserap'. Tapi jangan khawatir, black hole terdekat masih sangat jauh dari Bumi. 😊"
+                    }
+                ]
+            },
+            {
+                "tag": "minat_ai",
+                "patterns": [
+                    "Apa itu AI?",
+                    "Bagaimana cara kerja AI?",
+                    "Aku tertarik Artificial Intelligence",
+                    "Kenapa AI penting?",
+                    "AI bisa bikin apa aja?",
+                    "Mau belajar AI"
+                ],
+                "responses": [
+                    {
+                        "bot": "🤖 *AI (Artificial Intelligence) adalah teknologi yang membuat komputer 'pintar' seperti manusia. AI bisa mengenali wajah, mengerti bahasa, bahkan mengemudi mobil!* Kalau kamu penasaran, kita bisa mulai dari mengenal jenis AI: seperti Machine Learning (belajar dari data) dan Deep Learning (belajar dari jaringan otak digital).",
+                        "user_follow_up": "Wah, keren! Mulainya dari mana?",
+                        "bot_follow_up": "Coba belajar Python, itu bahasa pemrograman yang sering digunakan untuk AI. Mulailah dari yang sederhana, seperti mengenali pola data. Ada banyak tutorial online yang bisa kamu ikuti! 💻"
+                    },
+                    {
+                        "bot": "💡 *AI digunakan dalam banyak hal, seperti chatbot, deteksi penyakit, atau bahkan membuat seni digital.* AI juga belajar dari data besar untuk membuat keputusan yang lebih baik. Tertarik bikin proyek AI? 😊",
+                        "user_follow_up": "Iya, tapi kayaknya sulit banget",
+                        "bot_follow_up": "Tidak apa-apa! Mulailah dari library seperti Scikit-learn untuk Machine Learning atau TensorFlow untuk Deep Learning. Kita bisa buat sesuatu yang kecil dulu, seperti klasifikasi gambar. 🌟"
+                    },
+                    {
+                        "bot": "📊 *AI bekerja dengan data, algoritma, dan pelatihan. Semakin banyak data, semakin 'cerdas' AI itu.* Misalnya, AI bisa mengenali wajah di foto karena sudah 'dilatih' dengan ribuan foto wajah. Menarik, kan?",
+                        "user_follow_up": "Iya, tapi itu pasti butuh banyak coding?",
+                        "bot_follow_up": "Betul, tapi jangan khawatir! Ada tools yang mempermudah, seperti AutoML atau Google Colab, jadi kamu bisa fokus ke konsep tanpa terlalu banyak coding. 😊"
+                    }
+                ]
+        }        
+
+    ]
+}

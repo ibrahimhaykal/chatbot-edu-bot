@@ -1,6 +1,6 @@
 # EduBot: AI Chatbot untuk Pembelajaran Interaktif 🎓🤖
 
-[Imgur](https://imgur.com/EC4EoUq)
+![EduBot](https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif)
 
 **EduBot** adalah chatbot berbasis AI yang dirancang untuk mendukung pembelajaran interaktif. Menggunakan teknologi *deep learning*, EduBot mampu memahami dan merespon pertanyaan pengguna dengan cara yang natural dan informatif. EduBot dibangun dengan Python menggunakan pustaka seperti TensorFlow, NLTK, dan Streamlit untuk pengalaman pelatihan model dan pengujian yang intuitif.
 

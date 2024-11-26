@@ -92,12 +92,14 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 
 - **Struktur Proyek:**
   ```
-  ├── app.py                 # Antarmuka Streamlit
-  ├── chatbot_model.py       # Logika pelatihan dan evaluasi model
-  ├── data/                  # Folder data
-  ├── requirements.txt       # File dependensi
-  ├── README.md              # Dokumentasi
-  └── utils.py               # Utilitas tambahan untuk pemrosesan data
+├── assets/                 # Folder untuk menyimpan aset seperti gambar atau gif
+├── app.py                  # Antarmuka Streamlit untuk pengujian chatbot
+├── chatbot_model.h5        # Model chatbot yang telah dilatih
+├── chatboteducation.ipynb  # Notebook Jupyter untuk eksperimen dan pelatihan model
+├── dataset.json            # Dataset untuk melatih chatbot
+├── label_encoder.json      # File encoding label kelas
+├── tokenizer.json          # Tokenizer untuk pemrosesan teks
+└── README.md               # Dokumentasi proyek
   ```
 ---
 

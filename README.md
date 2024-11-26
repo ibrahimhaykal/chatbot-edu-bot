@@ -1,6 +1,3 @@
-Berikut adalah **README.md** yang menarik dan modern untuk proyek *EduBot*. README ini menyertakan pengenalan, fitur, teknologi yang digunakan, cara instalasi, dan panduan menjalankan aplikasi, lengkap dengan gaya profesional.
-
-```markdown
 # EduBot: AI Chatbot untuk Pembelajaran Interaktif 🎓🤖
 
 ![EduBot](https://imgur.com/a/IBFTBtG)
@@ -135,17 +132,8 @@ Kontribusi terbuka untuk pengembangan EduBot. Untuk memulai:
 2. Buat cabang fitur baru (`git checkout -b fitur-anda`).
 3. Kirimkan *pull request* ke repositori utama.
 
----
-
-## 📞 Kontak
-
-Untuk pertanyaan atau saran:
-- Email: [support@edubot.com](mailto:support@edubot.com)
-- LinkedIn: [EduBot Team](https://linkedin.com/in/edubot-team)
 
 ---
 
 ⭐ **Jangan lupa memberikan bintang pada repositori ini jika Anda merasa proyek ini bermanfaat!** ⭐
 ```
-
-Semoga README ini membantu proyek Anda terlihat profesional dan menarik! 🎉

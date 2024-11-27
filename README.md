@@ -91,7 +91,6 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 ## 📚 Dokumentasi
 
 - **Struktur Proyek:**
-  ```
 ├── assets/                 # Folder untuk menyimpan aset seperti gambar atau gif
 ├── app.py                  # Antarmuka Streamlit untuk pengujian chatbot
 ├── chatbot_model.h5        # Model chatbot yang telah dilatih

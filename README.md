@@ -39,7 +39,7 @@
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/ibrahimhaykal/chatbot-edu-bot.git
-   cd edubot
+   cd chatbot-edu-bot
    ```
 
 2. Buat dan aktifkan lingkungan virtual:
@@ -91,6 +91,7 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 ## 📚 Dokumentasi
 
 - **Struktur Proyek:**
+```
 ├── assets/                 # Folder untuk menyimpan aset seperti gambar atau gif
 ├── app.py                  # Antarmuka Streamlit untuk pengujian chatbot
 ├── chatbot_model.h5        # Model chatbot yang telah dilatih
@@ -99,7 +100,7 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 ├── label_encoder.json      # File encoding label kelas
 ├── tokenizer.json          # Tokenizer untuk pemrosesan teks
 └── README.md               # Dokumentasi proyek
----
+```
 
 ### **Pustaka Utama yang Digunakan** 🛠️
 

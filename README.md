@@ -100,7 +100,6 @@ EduBot dilengkapi dengan *dashboard* interaktif menggunakan **Streamlit**, yang 
 ├── label_encoder.json      # File encoding label kelas
 ├── tokenizer.json          # Tokenizer untuk pemrosesan teks
 └── README.md               # Dokumentasi proyek
-  ```
 ---
 
 ### **Pustaka Utama yang Digunakan** 🛠️
